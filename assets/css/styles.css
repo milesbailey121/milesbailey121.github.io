@@ -10,14 +10,21 @@ nav {
   background-color: #333;
   padding: 1em;
   text-align: center;
+  position: relative;
+}
+
+nav h1 {
+  color: white;
+  font-size: 1.5em;
 }
 
 nav ul {
   list-style-type: none;
+  padding: 0;
 }
 
 nav ul li {
-  display: inline;
+  display: inline-block;
   margin: 0 15px;
 }
 
@@ -32,30 +39,35 @@ nav ul li a:hover {
 }
 
 /* Layout for the 6 panels */
-.container {
+.projects-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
   padding: 20px;
 }
 
-.panel {
+.project-card {
   background-color: #f0f0f0;
   padding: 20px;
   border-radius: 8px;
   text-align: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  font-size: 1.2em;
 }
 
-.panel:hover {
+.project-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.project-card:hover {
   background-color: #e0e0e0;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
-  .container {
+  .projects-grid {
       grid-template-columns: 1fr;
   }
 }
