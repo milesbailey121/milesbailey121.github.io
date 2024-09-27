@@ -1,144 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+/* styles.css */
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
 
-    <!--CSS Styles -->
-    <link rel="stylesheet" href="assets/css/styles.css" />
+header{
+  background: #333;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
 
-    <!-- Favicons -->
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="assets/icons/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="assets/icons/favicon-32x32.png"
-    />
 
-    <!-- Animate CSS CDN -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
+nav ul li{
+  display: inline;
+  margin: 0 10px;
+}
 
-    <!-- Integrated CSS -->
-    <link rel="stylesheet" href="path/to/your/custom/styles.css" />
+nav ul li a{
+  color: #fff;
+  text-decoration: none;
+}
 
-    <title>Miles Bailey | Bioinformatics</title>
-  </head>
+section{
+  padding: 20px;
+  margin: 20px;
+}
 
-  <body>
-    <!-- Navbar -->
-    <nav>
-      <h1>Miles Bailey</h1>
-      <ul class="navigation">
-        <li><a href="#about" class="nav-link">About</a></li>
-        <li><a href="#projects" class="nav-link">Projects</a></li>
-        <li><a href="#experience" class="nav-link">Experience</a></li>
-      </ul>
-      <button class="burger-menu" id="burger-menu">
-        <ion-icon class="bars" name="menu-outline"></ion-icon>
-      </button>
-    </nav>
-
-    <!-- Hero Section -->
-    <section class="hero" id="about">
-      <img
-        src="assets/images/wfh_1.svg"
-        alt="About Me Image"
-        loading="lazy"
-        class="hero-img"
-      />
-      <div class="bio animate__animated animate__shakeX">
-        <h2 class="bio-title">About Me</h2>
-        <p class="bio-text">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia sed
-          dolorem fugit sapiente porro veniam pariatur dolore nostrum delectus
-          inventore tempore minus nemo, iste ullam illo laboriosam maiores
-          repudiandae quos!
-        </p>
-      </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section class="projects" id="github-projects">
-      <h2 class="projects-title">My GitHub Projects</h2>
-      <div class="projects-container">
-        <!-- Project Panel 1 -->
-        <div class="project-card">
-          <img
-            src="assets/images/project1.png"
-            alt="Project 1"
-            class="project-pic"
-          />
-          <h3 class="project-title">Project 1</h3>
-          <p class="project-description">Brief description of project 1.</p>
-          <a
-            href="https://github.com/yourusername/project1"
-            target="_blank"
-            class="project-link"
-            >View on GitHub</a
-          >
-        </div>
-
-        <!-- Project Panel 2 -->
-        <div class="project-card">
-          <img
-            src="assets/images/project2.png"
-            alt="Project 2"
-            class="project-pic"
-          />
-          <h3 class="project-title">Project 2</h3>
-          <p class="project-description">Brief description of project 2.</p>
-          <a
-            href="https://github.com/yourusername/project2"
-            target="_blank"
-            class="project-link"
-            >View on GitHub</a
-          >
-        </div>
-        <!-- Additional Project Panels -->
-      </div>
-    </section>
-
-    <!-- Scroll to top -->
-    <i class="scroll-up" id="scroll-up">
-      <img
-        src="assets/icons/icons8-upward-arrow.gif"
-        class="socicon up-arrow"
-        alt="Scroll to top"
-      />
-    </i>
-
-    <!-- Footer section -->
-    <footer>
-      <p class="copy">&copy; Copyright 2021</p>
-      <p class="copy">
-        Built with &#x2661; by
-        <a href="https://twitter.com/Ksound22" target="_blank"
-          >Kolade Chris (Ksound)</a
-        >
-      </p>
-    </footer>
-
-    <!-- Website scripts -->
-    <script src="assets/js/app.js"></script>
-
-    <!-- Ion icons scripts -->
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
-  </body>
-</html>
-
+.project {
+  background: #f4f4f4;
+  padding: 10px 0;
+  background: #333;
+  color: #fff;
+}
