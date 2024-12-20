@@ -69,7 +69,7 @@ nav {
 }
 
 nav h1 {
-  color: var(--primary-color);
+  color: var(--primary-color); 
 }
 
 nav a {
@@ -347,6 +347,7 @@ footer {
 @media screen and (max-width: 720px) {
   nav {
     padding: 1.5rem 1rem;
+    z-index: 1;
   }
   nav ul {
     position: fixed;
@@ -396,6 +397,7 @@ footer {
     padding: 1rem;
     border-radius: 6px;
     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    z-index: -1;
   }
 
   .more-about {
