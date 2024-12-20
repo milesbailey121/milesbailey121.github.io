@@ -390,7 +390,7 @@ footer {
   }
 
   .bio {
-    margin-top: -6rem; /* Adjusted from -5rem to create more space */
+    margin-top: 5rem; /* Adjusted from -5rem to create more space */
     width: 85%;
     max-width: 20.5rem;
     background: white;
