@@ -370,8 +370,9 @@ footer {
   }
 
   .hero img {
-    height: 37.5rem;
-    width: 30rem;
+    height: auto;            /* Maintain aspect ratio */
+    width: 90%;              /* Scale down for smaller screens */
+    max-width: 300px;        /* Limit maximum width */
   }
 
   .bio {
