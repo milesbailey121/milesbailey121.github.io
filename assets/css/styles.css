@@ -376,8 +376,8 @@ footer {
     margin-top: 2rem;
     flex-direction: column;
     gap: 0;
-    position: relative; /* For proper positioning of children */
-    align-items: center; /* Center children horizontally */
+    position: relative;
+    align-items: center;
   }
 
   .hero img {
@@ -385,19 +385,19 @@ footer {
     width: 16rem;
     border-radius: 50%;
     object-fit: cover;
-    margin-bottom: 3rem; /* Add space for the bio box */
+    margin-bottom: 4rem; /* Increased from 3rem */
   }
 
   .bio {
-    margin-top: -5rem; /* Negative margin to overlap with image */
-    width: 85%; /* Responsive width */
+    margin-top: -6rem; /* Adjusted from -5rem to create more space */
+    width: 85%;
     max-width: 20.5rem;
     background: white;
     padding: 1rem;
     border-radius: 6px;
     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
-    position: relative; /* Ensure it stays above the image */
-    z-index: 1; /* Keep bio box above the image */
+    position: relative;
+    z-index: 1;
   }
 
   .more-about {
@@ -435,14 +435,14 @@ footer {
   .hero img {
     height: 12rem;
     width: 12rem;
-    margin-bottom: 2.5rem; /* Slightly reduced spacing for smaller screens */
+    margin-bottom: 3.5rem; /* Increased from 2.5rem */
   }
 
   .bio {
-    width: 90%; /* Slightly wider on mobile for better readability */
+    width: 90%;
     max-width: 18.3rem;
-    margin-top: -4rem; /* Less overlap on smaller screens */
-    padding: 0.8rem; /* Slightly reduced padding */
+    margin-top: -5rem; /* Adjusted from -4rem to create more space */
+    padding: 0.8rem;
   }
 
   .project-container {
