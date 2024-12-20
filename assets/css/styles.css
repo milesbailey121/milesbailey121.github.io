@@ -372,14 +372,14 @@ footer {
   }
 
   .hero {
-    margin-top: -4rem;
+    margin-top: 2rem;
     flex-direction: column;
     gap: 0;
   }
 
   .hero img {
-    height: 37.5rem;
-    width: 30rem;
+    height: 20rem; /* Reduce the height */
+    width: auto;   /* Maintain aspect ratio */
   }
 
   .bio {
