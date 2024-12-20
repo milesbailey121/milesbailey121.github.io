@@ -117,19 +117,20 @@ nav ul li {
 }
 
 .bio {
-  width: 25rem;
-  padding: 0.625rem;
-  border-radius: 6px;
-  box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+  background-color: var(--bg-color);
+  padding: 1rem 6rem;
+  width: 100%;
 }
 
-.bio h1 {
+.bio h2 {
   margin-bottom: var(--bottom-margin);
+  text-align: center;
 }
 
 .bio p {
   line-height: var(--line-height);
-  padding: 0.3rem 0;
+  padding: 0.4rem;
+  text-align: center;
 }
 /* Hero section ends */
 
@@ -147,6 +148,7 @@ nav ul li {
 .more-about p {
   line-height: var(--line-height);
   padding: 0.4rem;
+  text-align: center;
 }
 /* More about ends */
 
@@ -378,8 +380,9 @@ footer {
   }
 
   .hero img {
-    height: 20rem; /* Reduce the height */
-    width: auto;   /* Maintain aspect ratio */
+    height: 16rem; /* Reduced from 20rem for better mobile display */
+    width: 100%;  /* Changed to 100% to ensure it fits container */
+    object-fit: cover; /* Ensures image covers area without distortion */
   }
 
   .bio {
@@ -420,8 +423,9 @@ footer {
 
 @media screen and (max-width: 420px) {
   .hero img {
-    height: 37.5rem;
-    width: 23rem;
+    height: 14rem; /* Significantly reduced from 37.5rem */
+    width: 100%;  /* Full width of container */
+    object-fit: cover; /* Maintains aspect ratio while covering area */
   }
 
   .bio {
