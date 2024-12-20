@@ -386,11 +386,11 @@ footer {
     width: 16rem;
     border-radius: 50%;
     object-fit: cover;
-    margin-bottom: 4rem; /* Increased from 3rem */
+    margin-bottom: 5rem; /* Increased from 4rem to 5rem for more space */
   }
 
   .bio {
-    margin-top: 5rem; /* Adjusted from -5rem to create more space */
+    margin-top: 6rem; /* Increased from 5rem to 6rem for more space */
     width: 85%;
     max-width: 20.5rem;
     background: white;
@@ -435,13 +435,13 @@ footer {
   .hero img {
     height: 12rem;
     width: 12rem;
-    margin-bottom: 3.5rem; /* Increased from 2.5rem */
+    margin-bottom: 4rem; /* Increased from 3.5rem to 4rem for more space */
   }
 
   .bio {
     width: 90%;
     max-width: 18.3rem;
-    margin-top: -5rem; /* Adjusted from -4rem to create more space */
+    margin-top: 7rem; /* Increased from -5rem to 7rem for more space */
     padding: 0.8rem;
   }
 
