@@ -344,7 +344,6 @@ footer {
   margin: 10px;
 }
 
-/* Media queries for responsiveness */
 @media screen and (max-width: 720px) {
   nav {
     padding: 1.5rem 1rem;
@@ -377,17 +376,28 @@ footer {
     margin-top: 2rem;
     flex-direction: column;
     gap: 0;
+    position: relative; /* For proper positioning of children */
+    align-items: center; /* Center children horizontally */
   }
 
   .hero img {
-    height: 16rem; /* Reduced from 20rem for better mobile display */
-    width: 100%;  /* Changed to 100% to ensure it fits container */
-    object-fit: cover; /* Ensures image covers area without distortion */
+    height: 16rem;
+    width: 16rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 3rem; /* Add space for the bio box */
   }
 
   .bio {
-    margin-top: -7rem;
-    width: 20.5rem;
+    margin-top: -5rem; /* Negative margin to overlap with image */
+    width: 85%; /* Responsive width */
+    max-width: 20.5rem;
+    background: white;
+    padding: 1rem;
+    border-radius: 6px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    position: relative; /* Ensure it stays above the image */
+    z-index: 1; /* Keep bio box above the image */
   }
 
   .more-about {
@@ -423,13 +433,16 @@ footer {
 
 @media screen and (max-width: 420px) {
   .hero img {
-    height: 14rem; /* Significantly reduced from 37.5rem */
-    width: 100%;  /* Full width of container */
-    object-fit: cover; /* Maintains aspect ratio while covering area */
+    height: 12rem;
+    width: 12rem;
+    margin-bottom: 2.5rem; /* Slightly reduced spacing for smaller screens */
   }
 
   .bio {
-    width: 18.3rem;
+    width: 90%; /* Slightly wider on mobile for better readability */
+    max-width: 18.3rem;
+    margin-top: -4rem; /* Less overlap on smaller screens */
+    padding: 0.8rem; /* Slightly reduced padding */
   }
 
   .project-container {
