@@ -108,11 +108,12 @@ nav ul li {
   gap: 2.5rem;
   max-width: 68.75rem;
   margin: auto;
+  margin-top: 2rem;
 }
 
 .hero img {
-  height: 37.5rem;
-  width: 37.5rem;
+  height: 20rem; /* Reduce the height */
+  width: auto;   /* Maintain aspect ratio */
 }
 
 .bio {
