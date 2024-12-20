@@ -397,7 +397,6 @@ footer {
     border-radius: 6px;
     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
     position: relative;
-    z-index: 1;
   }
 
   .more-about {
@@ -441,7 +440,7 @@ footer {
   .bio {
     width: 90%;
     max-width: 18.3rem;
-    margin-top: 3.5rem; /* Adjusted from -4rem to create more space */
+    margin-top: -5rem; /* Adjusted from -4rem to create more space */
     padding: 0.8rem;
   }
 
